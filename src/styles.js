@@ -144,32 +144,6 @@ module.exports = (theme) => ({
         'pre code::after': {
           content: 'none',
         },
-        table: {
-          width: '100%',
-          tableLayout: 'auto',
-          textAlign: 'left',
-          marginTop: em(32, 16),
-          marginBottom: em(32, 16),
-        },
-        thead: {
-          color: theme('colors.gray.900', defaultTheme.colors.gray[900]),
-          fontWeight: '600',
-          borderBottomWidth: '1px',
-          borderBottomColor: theme('colors.gray.300', defaultTheme.colors.gray[300]),
-        },
-        'thead th': {
-          verticalAlign: 'bottom',
-        },
-        'tbody tr': {
-          borderBottomWidth: '1px',
-          borderBottomColor: theme('colors.gray.200', defaultTheme.colors.gray[200]),
-        },
-        'tbody tr:last-child': {
-          borderBottomWidth: '0',
-        },
-        'tbody td': {
-          verticalAlign: 'top',
-        },
       },
       {
         fontSize: rem(16),
@@ -315,33 +289,6 @@ module.exports = (theme) => ({
         },
         'h4 + *': {
           marginTop: '0',
-        },
-        table: {
-          fontSize: em(14, 16),
-          lineHeight: round(24 / 14),
-        },
-        'thead th': {
-          paddingRight: em(8, 14),
-          paddingBottom: em(8, 14),
-          paddingLeft: em(8, 14),
-        },
-        'thead th:first-child': {
-          paddingLeft: '0',
-        },
-        'thead th:last-child': {
-          paddingRight: '0',
-        },
-        'tbody td': {
-          paddingTop: em(8, 14),
-          paddingRight: em(8, 14),
-          paddingBottom: em(8, 14),
-          paddingLeft: em(8, 14),
-        },
-        'tbody td:first-child': {
-          paddingLeft: '0',
-        },
-        'tbody td:last-child': {
-          paddingRight: '0',
         },
       },
       {
@@ -501,33 +448,6 @@ module.exports = (theme) => ({
         'h4 + *': {
           marginTop: '0',
         },
-        table: {
-          fontSize: em(12, 14),
-          lineHeight: round(18 / 12),
-        },
-        'thead th': {
-          paddingRight: em(12, 12),
-          paddingBottom: em(8, 12),
-          paddingLeft: em(12, 12),
-        },
-        'thead th:first-child': {
-          paddingLeft: '0',
-        },
-        'thead th:last-child': {
-          paddingRight: '0',
-        },
-        'tbody td': {
-          paddingTop: em(8, 12),
-          paddingRight: em(12, 12),
-          paddingBottom: em(8, 12),
-          paddingLeft: em(12, 12),
-        },
-        'tbody td:first-child': {
-          paddingLeft: '0',
-        },
-        'tbody td:last-child': {
-          paddingRight: '0',
-        },
       },
       {
         '> :first-child': {
@@ -685,33 +605,6 @@ module.exports = (theme) => ({
         },
         'h4 + *': {
           marginTop: '0',
-        },
-        table: {
-          fontSize: em(16, 18),
-          lineHeight: round(24 / 16),
-        },
-        'thead th': {
-          paddingRight: em(12, 16),
-          paddingBottom: em(12, 16),
-          paddingLeft: em(12, 16),
-        },
-        'thead th:first-child': {
-          paddingLeft: '0',
-        },
-        'thead th:last-child': {
-          paddingRight: '0',
-        },
-        'tbody td': {
-          paddingTop: em(12, 16),
-          paddingRight: em(12, 16),
-          paddingBottom: em(12, 16),
-          paddingLeft: em(12, 16),
-        },
-        'tbody td:first-child': {
-          paddingLeft: '0',
-        },
-        'tbody td:last-child': {
-          paddingRight: '0',
         },
       },
       {
@@ -871,33 +764,6 @@ module.exports = (theme) => ({
         'h4 + *': {
           marginTop: '0',
         },
-        table: {
-          fontSize: em(18, 20),
-          lineHeight: round(28 / 18),
-        },
-        'thead th': {
-          paddingRight: em(12, 18),
-          paddingBottom: em(16, 18),
-          paddingLeft: em(12, 18),
-        },
-        'thead th:first-child': {
-          paddingLeft: '0',
-        },
-        'thead th:last-child': {
-          paddingRight: '0',
-        },
-        'tbody td': {
-          paddingTop: em(16, 18),
-          paddingRight: em(12, 18),
-          paddingBottom: em(16, 18),
-          paddingLeft: em(12, 18),
-        },
-        'tbody td:first-child': {
-          paddingLeft: '0',
-        },
-        'tbody td:last-child': {
-          paddingRight: '0',
-        },
       },
       {
         '> :first-child': {
@@ -1055,33 +921,6 @@ module.exports = (theme) => ({
         },
         'h4 + *': {
           marginTop: '0',
-        },
-        table: {
-          fontSize: em(20, 24),
-          lineHeight: round(28 / 20),
-        },
-        'thead th': {
-          paddingRight: em(12, 20),
-          paddingBottom: em(16, 20),
-          paddingLeft: em(12, 20),
-        },
-        'thead th:first-child': {
-          paddingLeft: '0',
-        },
-        'thead th:last-child': {
-          paddingRight: '0',
-        },
-        'tbody td': {
-          paddingTop: em(16, 20),
-          paddingRight: em(12, 20),
-          paddingBottom: em(16, 20),
-          paddingLeft: em(12, 20),
-        },
-        'tbody td:first-child': {
-          paddingLeft: '0',
-        },
-        'tbody td:last-child': {
-          paddingRight: '0',
         },
       },
       {
