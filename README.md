@@ -1,3 +1,5 @@
+Fork: Same as master, without table styles
+
 <p>
   <img alt="Tailwind CSS Typography" width="350" src="./.github/logo.svg">
 </p>
